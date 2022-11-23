@@ -8,13 +8,10 @@ body {
   padding: 0% 3% 0% 3%;
   width: auto;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
-
-
 }
 
-.top_bar img{
-
-    margin-top: 10px;
+.top_bar img {
+  margin-top: 10px;
 }
 
 nav {
@@ -46,12 +43,10 @@ nav ul li a {
   width: 40%;
   height: 300px;
   margin: auto;
-  
 }
 
-.reg_form a{
-
-    text-decoration: none;
+.reg_form a {
+  text-decoration: none;
 }
 
 input {
@@ -98,12 +93,12 @@ h2 {
 
 #newsletter {
   width: 40%;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 #social {
   width: 30%;
-  padding-left: 2%;
+  padding-left: 5%;
   color: #ffffff;
 }
 #newsletter input[type="email"] {
@@ -122,9 +117,9 @@ h2 {
 }
 
 #newsletter button:hover {
-    background-color: blue;
-    color: white;
-  }
+  background-color: blue;
+  color: white;
+}
 
 #address {
   margin-left: 5%;
