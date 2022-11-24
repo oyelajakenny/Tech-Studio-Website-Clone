@@ -22,7 +22,7 @@ body {
   
   nav ul li {
     display: inline;
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-decoration: none;
     color: blue;
     list-style: none;
@@ -38,10 +38,11 @@ body {
     padding-top: 3%;
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
   }
   
   .reg_form {
-    width: 30%;
+    width: 35%;
     margin-right: 5%;
 
    
@@ -53,6 +54,12 @@ body {
   }
 .quote > img{
 border-radius: 100%;
+}
+
+.quote > p{
+
+    line-height: 1.5;
+    font-style: italic;
 }
   
   .reg_form a {
