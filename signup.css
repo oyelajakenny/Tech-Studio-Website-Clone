@@ -34,36 +34,50 @@ body {
   }
   
   #login {
-    height: 500px;
-  
-    padding-top: 5%;
+    height: 700px;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
   }
   
   .reg_form {
-    width: 40%;
-    height: 300px;
-    margin: auto;
+    width: 30%;
+    margin-right: 5%;
+
+   
   }
+  .quote{
+
+    width: 30%;
+    text-align: center;
+  }
+.quote > img{
+border-radius: 100%;
+}
   
   .reg_form a {
     text-decoration: none;
   }
   
-  input {
+  input, select {
     width: 100%;
     height: 50px;
     margin-bottom: 5%;
     border: none;
     border-radius: 3px;
+    background-color: #c3c3c3;
+
     /* font-size: small; */
   }
   
-  input[type="email"] {
+  input[type="ten"], select {
     background-color: #c3c3c3;
   }
   
   input[type="password"] {
     background-color: #c3c3c3;
+    width: 46%;
+    margin-right: 2%;
   }
   
   button {
@@ -123,5 +137,10 @@ body {
   
   #address {
     margin-left: 5%;
+  }
+
+ .reg_form label{
+
+    margin-bottom: 3%;
   }
   

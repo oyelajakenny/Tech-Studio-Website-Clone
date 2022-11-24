@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="signup.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="top_bar">
 
@@ -15,7 +17,7 @@
 
         <nav>
             <ul>
-                
+
                 <li> <a href="login.html">Login</a></li>
                 <li><a href="signup.html">Register</a></li>
 
@@ -26,12 +28,50 @@
 
     <section id="login">
         <form class="reg_form">
-            <h2>Login</h2>
-            <input type="email" placeholder="Enter Your Email"></br>
-            <input type="password" placeholder="Enter Your Password"></br>
+            <h2>Create An Account</h2>
+            <label for="fname">Enter Your Full Name</label>
+            <input type="text" placeholder="e.g Oyelaja Hussein"></br>
+            <label for="email">Enter Your Email</label>
+            <input type="email" placeholder="e.g kenny@oyelajakenny.com"></br>
+            <label for="phone">Enter Your Phone Number</label>
+            <input type="ten" placeholder="e.g 08011212221"></br>
+            <label for="course">Course</label>
+            <select id="course" name="Course">
+                <option value="Frontend">Frontend</option>
+                <option value="Fullstack">FullStack</option>
+                <option value="ui/ux">Product Design UI/UX</option>
+                <option value="Data Analysis">Data Analysis</option>
+
+            </select></br>
+            <label for="type">Type Of Program</label>
+            <select id="type" name="Type of Program">
+                <option value="Weekday">Weekday Class</option>
+                <option value="Weekend">Weekend Class</option>
+
+
+            </select></br>
+            <label for="password">Enter Password</label></br>
+
+            <input type="password" placeholder="Enter Your Password">
+            <input type="password" placeholder="Enter Your Password">
             <button>Continue</button></br>
-            <a href="#">Forgot Your Password</a>
+
         </form>
+
+        <div class="quote">
+            <img src="/images/quote.jpg" alt="billgates" />
+
+            <p>Learning to write programs stretches your mind, and</br> helps you think better, creates a way of thinking</br>
+                about things that I think is helpful in all domains.</p>
+            <p>
+
+                - Bill Gates<br>
+
+                Co-Chairman, Bill & Melinda Gates Foundation and Co-Founder, Microsoft
+            </p>
+
+
+        </div>
 
     </section>
 
@@ -51,7 +91,7 @@
         <div id="newsletter">
             <h3>SIGN UP FOR OUR NEWSLETTER</h3>
             <input type="email" placeholder="ENTER YOUR EMAIL" required>
-            <button>SUBSCRIBE</button> 
+            <button>SUBSCRIBE</button>
 
 
         </div>
@@ -72,4 +112,5 @@
 
     </footer>
 </body>
+
 </html>
