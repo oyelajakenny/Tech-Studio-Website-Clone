@@ -64,7 +64,7 @@ ul li a:hover {
   background-color: #ffff;
   width: 35%;
   padding: 2%;
-  height: 370px;
+  height: 5%;
   margin-top: 5%;
 }
 
@@ -78,7 +78,7 @@ input {
 }
 
 input[type="text"] {
-  width: 47%;
+  width: 46%;
   margin-right: 5px;
 }
 
